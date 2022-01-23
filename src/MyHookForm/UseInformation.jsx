@@ -12,7 +12,7 @@ const UseInformation = (props) => {
       <div className="card-header">User Information</div>
       <div className="card-body">
         {fields.map((item, index) => (
-          <div className="form row form-group row mt-3" key={index}>
+          <div className="form row form-group row" key={index}>
             <div className="col">
               <input
                 type="text"
